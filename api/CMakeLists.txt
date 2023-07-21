@@ -17,7 +17,7 @@ elseif (CMAKE_SYSTEM_PROCESSOR STREQUAL "x86"
   set (TARGET_ARCH "32")
 endif()
 
-# add_subdirectory(extern/cmake/ogdf.cmake)
-find_package(extern/)
+# add_subdirectory(extern)
+find_package(extern/cmake/ogdf.cmake)
 add_subdirectory(src)
 # add_subdirectory(test)
