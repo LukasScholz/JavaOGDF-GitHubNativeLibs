@@ -2,7 +2,7 @@
 #include <tuple>
 #include <vector>
 #include <iostream>
-#include "LayoutFromEdgeList.cpp"
+#include "../extern/src/layout.cc"
 #include "de_unijena_bioinf_TreeVisualization_TreeVisualizer.h"
 
 JNIEXPORT jobjectArray JNICALL Java_de_unijena_bioinf_TreeVisualization_TreeVisualizer_LayoutFromEdgeList_1internal
