@@ -1,0 +1,1 @@
+/usr/bin/c++ -fpermissive -march=native -O3 -DNDEBUG -rdynamic CMakeFiles/ex-hypergraph.dir/doc/examples/layout/hypergraph.cpp.o -o ../../extern/doc/examples/layout/ex-hypergraph  libOGDF.a libCOIN.a -lpthread 

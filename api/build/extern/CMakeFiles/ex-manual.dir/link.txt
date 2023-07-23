@@ -1,0 +1,1 @@
+/usr/bin/c++ -fpermissive -march=native -O3 -DNDEBUG -rdynamic CMakeFiles/ex-manual.dir/doc/examples/basic/manual.cpp.o -o ../../extern/doc/examples/basic/ex-manual  libOGDF.a libCOIN.a -lpthread 

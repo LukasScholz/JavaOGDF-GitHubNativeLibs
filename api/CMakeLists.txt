@@ -17,7 +17,16 @@ elseif (CMAKE_SYSTEM_PROCESSOR STREQUAL "x86"
   set (TARGET_ARCH "32")
 endif()
 
-# add_subdirectory(extern)
+# determine host platform
+if (CMAKE_HOST_WIN32)
+  set(WINDOWS 1)
+elseif(CMAKE_HOST_APPLE)
+  set(MACOS 1)
+elseif(CMAKE_HOST_UNIX)
+  set(LINUX 1)
+endif()
+
+add_subdirectory(extern)
 find_package(extern/cmake/ogdf.cmake)
 add_subdirectory(src)
 # add_subdirectory(test)

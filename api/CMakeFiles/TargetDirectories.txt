@@ -1,4 +1,0 @@
-/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/CMakeFiles/edit_cache.dir
-/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/src/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/src/CMakeFiles/edit_cache.dir
