@@ -1,10 +1,10 @@
 Performing C++ SOURCE FILE Test has_mallinfo2 failed with the following output:
 Change Dir: /mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_5ca35/fast && /usr/bin/make  -f CMakeFiles/cmTC_5ca35.dir/build.make CMakeFiles/cmTC_5ca35.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_be69e/fast && /usr/bin/make  -f CMakeFiles/cmTC_be69e.dir/build.make CMakeFiles/cmTC_be69e.dir/build
 make[1]: Entering directory '/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5ca35.dir/src.cxx.o
-/usr/bin/c++ -Dhas_mallinfo2  -fpermissive -march=native  -fPIE -o CMakeFiles/cmTC_5ca35.dir/src.cxx.o -c /mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_be69e.dir/src.cxx.o
+/usr/bin/c++ -Dhas_mallinfo2  -fpermissive -march=native  -fPIE -o CMakeFiles/cmTC_be69e.dir/src.cxx.o -c /mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/CMakeFiles/CMakeTmp/src.cxx
 /mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
 /mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/CMakeFiles/CMakeTmp/src.cxx:4:19: error: variable ‘main()::mallinfo2 mi’ has initializer but incomplete type
     4 |  struct mallinfo2 mi = mallinfo2();
@@ -15,9 +15,9 @@ Building CXX object CMakeFiles/cmTC_5ca35.dir/src.cxx.o
 /mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/CMakeFiles/CMakeTmp/src.cxx:4:9: note: forward declaration of ‘struct main()::mallinfo2’
     4 |  struct mallinfo2 mi = mallinfo2();
       |         ^~~~~~~~~
-make[1]: *** [CMakeFiles/cmTC_5ca35.dir/build.make:78: CMakeFiles/cmTC_5ca35.dir/src.cxx.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_be69e.dir/build.make:78: CMakeFiles/cmTC_be69e.dir/src.cxx.o] Error 1
 make[1]: Leaving directory '/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:127: cmTC_5ca35/fast] Error 2
+make: *** [Makefile:127: cmTC_be69e/fast] Error 2
 
 
 Source file was:
