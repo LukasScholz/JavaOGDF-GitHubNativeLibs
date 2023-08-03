@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/extern
+# Install script for directory: /mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,18 +43,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/libCOIN.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/libCOIN.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/extern/include/coin" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/include/coin" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF/CoinTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF/CoinTargets.cmake"
-         "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/CoinTargets.cmake")
+         "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/CoinTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF/CoinTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -63,20 +63,20 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF" TYPE FILE FILES "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/CoinTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF" TYPE FILE FILES "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/CoinTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF" TYPE FILE FILES "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/CoinTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF" TYPE FILE FILES "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/CoinTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/libOGDF.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/libOGDF.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES
-    "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/include/ogdf"
-    "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/extern/include/ogdf"
+    "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/include/ogdf"
+    "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/include/ogdf"
     FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inc$")
 endif()
 
@@ -84,7 +84,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF/OgdfTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF/OgdfTargets.cmake"
-         "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/OgdfTargets.cmake")
+         "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/OgdfTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF/OgdfTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -93,17 +93,17 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF" TYPE FILE FILES "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/OgdfTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF" TYPE FILE FILES "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/OgdfTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF" TYPE FILE FILES "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/OgdfTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF" TYPE FILE FILES "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/OGDF/OgdfTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF" TYPE FILE FILES "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/ogdf-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/OGDF" TYPE FILE FILES "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/ogdf-config.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/libogdf" TYPE DIRECTORY FILES "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/extern/doc/examples" FILES_MATCHING REGEX "/[^/]*\\.cpp$" REGEX "/[^/]*\\.txt$" REGEX "/[^/]*\\.gml$" REGEX "/[^/]*\\.bench$" REGEX "/output\\-[^/]*$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/libogdf" TYPE DIRECTORY FILES "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/doc/examples" FILES_MATCHING REGEX "/[^/]*\\.cpp$" REGEX "/[^/]*\\.txt$" REGEX "/[^/]*\\.gml$" REGEX "/[^/]*\\.bench$" REGEX "/output\\-[^/]*$" EXCLUDE)
 endif()
 

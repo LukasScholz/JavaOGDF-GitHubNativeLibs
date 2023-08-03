@@ -32,4 +32,4 @@
 
 #define OGDF_SSE3_EXTENSIONS <pmmintrin.h>
 #define OGDF_HAS_LINUX_CPU_MACROS
-/* #undef OGDF_HAS_MALLINFO2 */
+#define OGDF_HAS_MALLINFO2

@@ -1,8 +1,8 @@
-# Install script for directory: /mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/src
+# Install script for directory: /mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/src/../build/native/l64")
+  set(CMAKE_INSTALL_PREFIX "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/src/../build/native/l64")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,18 +44,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/src/../build/native/l64/libOGDF_JNI_Wrapper.a")
+   "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/src/../build/native/l64/libOGDF_JNI_Wrapper.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/src/../build/native/l64" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/src/libOGDF_JNI_Wrapper.a")
+  file(INSTALL DESTINATION "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/src/../build/native/l64" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/src/libOGDF_JNI_Wrapper.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  set(INSTALL_PATH "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/src/../build/native/l64")
+  set(INSTALL_PATH "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/src/../build/native/l64")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -71,7 +71,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     RESOLVED_DEPENDENCIES_VAR RESOLVED
     UNRESOLVED_DEPENDENCIES_VAR UNRESOLVED
     CONFLICTING_DEPENDENCIES_PREFIX CONF
-    LIBRARIES /mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/src/libOGDF_JNI_Wrapper.a)
+    LIBRARIES /mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/src/libOGDF_JNI_Wrapper.a)
   foreach (found_dep IN LISTS RESOLVED)
     # copy only these libs
     if (found_dep MATCHES ".*([Cc]bc|[Cc]lp|[Cc]oin|gcc_s|gfortran|lapack|quadmath|c\\+\\+).*"

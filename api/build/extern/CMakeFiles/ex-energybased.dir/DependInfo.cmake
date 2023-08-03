@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/extern/doc/examples/layout/energybased.cpp" "extern/CMakeFiles/ex-energybased.dir/doc/examples/layout/energybased.cpp.o" "gcc" "extern/CMakeFiles/ex-energybased.dir/doc/examples/layout/energybased.cpp.o.d"
+  "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/doc/examples/layout/energybased.cpp" "extern/CMakeFiles/ex-energybased.dir/doc/examples/layout/energybased.cpp.o" "gcc" "extern/CMakeFiles/ex-energybased.dir/doc/examples/layout/energybased.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/CMakeFiles/OGDF.dir/DependInfo.cmake"
-  "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/build/extern/CMakeFiles/COIN.dir/DependInfo.cmake"
+  "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/CMakeFiles/OGDF.dir/DependInfo.cmake"
+  "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/CMakeFiles/COIN.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

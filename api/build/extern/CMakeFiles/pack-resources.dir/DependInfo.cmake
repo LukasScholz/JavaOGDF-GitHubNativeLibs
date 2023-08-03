@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/api/extern/test/src/pack-resources.cpp" "extern/CMakeFiles/pack-resources.dir/test/src/pack-resources.cpp.o" "gcc" "extern/CMakeFiles/pack-resources.dir/test/src/pack-resources.cpp.o.d"
+  "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/test/src/pack-resources.cpp" "extern/CMakeFiles/pack-resources.dir/test/src/pack-resources.cpp.o" "gcc" "extern/CMakeFiles/pack-resources.dir/test/src/pack-resources.cpp.o.d"
   )
 
 # Targets to which this target links.

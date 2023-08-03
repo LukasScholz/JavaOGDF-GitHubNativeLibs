@@ -27,6 +27,6 @@ elseif(CMAKE_HOST_UNIX)
 endif()
 
 add_subdirectory(extern)
-find_package(extern/cmake/ogdf.cmake)
+find_package(./extern/cmake/ogdf.cmake)
 add_subdirectory(src)
 # add_subdirectory(test)
