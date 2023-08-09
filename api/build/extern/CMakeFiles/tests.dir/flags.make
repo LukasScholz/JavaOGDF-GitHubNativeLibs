@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/include -I/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/test/include -I/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/include -isystem /mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/include/coin
+CXX_INCLUDES = -I/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/build/extern/include -I/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/test/include -I/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/src -I/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/include -isystem /mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/include/coin
 
 CXX_FLAGS = -fpermissive -march=native -O3 -DNDEBUG -fPIE  -Wall -Wextra -Wno-unused-parameter -Wno-unknown-pragmas       -Wno-error=sign-compare -Wno-error=conversion -Wno-error=strict-aliasing -Wshadow -Wno-error=maybe-uninitialized -Wno-error=unused-but-set-parameter -Wno-error=unused-but-set-variable -Wno-error=strict-overflow -Wno-error=unused-variable  -std=gnu++11
 

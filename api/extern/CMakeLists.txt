@@ -22,7 +22,7 @@ include(compiler-specifics)
 include(group-files)
 include(coin)
 include(ogdf)
-
+include_directories(src)
 include(make-user-target)
 include(tests)
 include(examples)
