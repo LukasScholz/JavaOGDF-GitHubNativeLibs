@@ -1,5 +1,10 @@
 project(JavaOGDF)
 
+
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/extern/cmake")
+set(ogdf_DIR "${CMAKE_CURRENT_SOURCE_DIR}/extern/cmake")
+
+find_package(ogdf)
 # cmake flags/requirements
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON) # for IDEs
 set(CMAKE_POSITION_INDEPENDENT_CODE ON) # for compiling shared lib
@@ -26,7 +31,6 @@ elseif(CMAKE_HOST_UNIX)
   set(LINUX 1)
 endif()
 
-add_subdirectory(extern)
-find_package(./extern/cmake/ogdf.cmake)
-add_subdirectory(src)
-# add_subdirectory(test)
+ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/extern)
+ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src)
+ #add_subdirectory(test) 

@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//The directory containing a CMake configuration file for ./extern/cmake/ogdf.cmake.
-./extern/cmake/ogdf.cmake_DIR:PATH=./extern/cmake/ogdf.cmake_DIR-NOTFOUND
-
 //Whether to build shared libraries instead of static ones.
 BUILD_SHARED_LIBS:BOOL=OFF
 
