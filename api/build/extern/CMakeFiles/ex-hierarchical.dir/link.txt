@@ -1,1 +1,0 @@
-/usr/bin/c++ -fpermissive -march=native -O3 -DNDEBUG -rdynamic CMakeFiles/ex-hierarchical.dir/doc/examples/layout/hierarchical.cpp.o -o ../../extern/doc/examples/layout/ex-hierarchical  libOGDF.a libCOIN.a -lpthread 

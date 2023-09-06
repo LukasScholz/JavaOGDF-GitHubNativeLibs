@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 project(ogdf-user-example CXX)
 
-set(OGDF_CONFIG_SEARCH_PATH CACHE PATH "")
+set(OGDF_CONFIG_SEARCH_PATH CACHE PATH "/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api")
 
 find_package(OGDF CONFIG PATHS ${OGDF_CONFIG_SEARCH_PATH})
 if(NOT OGDF_FOUND)

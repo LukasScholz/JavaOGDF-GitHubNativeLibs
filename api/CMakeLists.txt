@@ -1,8 +1,9 @@
+
 project(JavaOGDF)
 
 
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/extern/cmake")
-set(ogdf_DIR "${CMAKE_CURRENT_SOURCE_DIR}/extern/cmake")
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/extern")
+set(ogdf_DIR "${CMAKE_CURRENT_SOURCE_DIR}/extern")
 
 find_package(ogdf)
 # cmake flags/requirements

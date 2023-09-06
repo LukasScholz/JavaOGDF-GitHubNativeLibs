@@ -1,1 +1,0 @@
-/usr/bin/c++ -fpermissive -march=native -O3 -DNDEBUG -rdynamic CMakeFiles/ex-multilevelmixer.dir/doc/examples/layout/multilevelmixer.cpp.o -o ../../extern/doc/examples/layout/ex-multilevelmixer  libOGDF.a libCOIN.a -lpthread 
