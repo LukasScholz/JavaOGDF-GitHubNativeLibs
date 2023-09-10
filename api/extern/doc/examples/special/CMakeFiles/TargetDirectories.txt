@@ -1,3 +1,0 @@
-/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/doc/examples/special/CMakeFiles/check-build-mode.dir
-/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/doc/examples/special/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/doc/examples/special/CMakeFiles/rebuild_cache.dir

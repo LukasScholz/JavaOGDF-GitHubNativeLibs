@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/check-build-mode.dir/check-build-mode.cpp.o -o check-build-mode  /mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/libOGDF.a /mnt/c/Users/Lukas/Documents/GitHub/JavaOGDF-GitHubNativeLibs/api/extern/libCOIN.a -lpthread 

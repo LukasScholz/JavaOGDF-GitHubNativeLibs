@@ -1,0 +1,13 @@
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/CMakeFiles/list_install_components.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/CMakeFiles/install.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/CMakeFiles/install/local.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/CMakeFiles/install/strip.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/src/CMakeFiles/OGDF_JNI_Wrapper.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/src/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/src/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/src/CMakeFiles/list_install_components.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/src/CMakeFiles/install.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/src/CMakeFiles/install/local.dir
+/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/src/CMakeFiles/install/strip.dir

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/src",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/src -I/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/src/../tmap/src/_tmap -I/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/src/../ogdf -I/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/src/../ogdf/include -I/usr/lib/jvm/default-java/include -I/usr/lib/jvm/default-java/include/linux -fpermissive -fPIC -std=gnu++11 -o CMakeFiles/OGDF_JNI_Wrapper.dir/LayoutFromEdgeList_internal.cpp.o -c /mnt/c/Users/Lukas/Documents/GitHub/Jogdf/src/LayoutFromEdgeList_internal.cpp",
+  "file": "/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/src/LayoutFromEdgeList_internal.cpp"
+}
+]
