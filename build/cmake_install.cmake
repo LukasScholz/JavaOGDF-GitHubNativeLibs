@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Lukas/Documents/GitHub/Jogdf
+# Install script for directory: /mnt/c/Users/lkass/Documents/GitHub/JavaOGDF
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/src/cmake_install.cmake")
+  include("/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/build/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/Lukas/Documents/GitHub/Jogdf/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

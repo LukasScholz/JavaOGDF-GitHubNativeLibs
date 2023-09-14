@@ -17,7 +17,7 @@ target_include_directories(OGDF_JNI_Wrapper PUBLIC "../ogdf/include")
 target_include_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include")
 target_include_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include/linux")
 
-find_package("../ogdf")
+# find_package("../ogdf")
 
 if (STATIC_STD)
   set(EXTRA_STATIC_LINKS "-static-libgcc -static-libstdc++")
