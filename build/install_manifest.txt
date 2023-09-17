@@ -1,0 +1,1 @@
+/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/src/../build/native/l64/libOGDF_JNI_Wrapper.a

@@ -237,7 +237,7 @@ Java_OGDF_JNI_BINARY_DIR:STATIC=/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/bui
 Java_OGDF_JNI_SOURCE_DIR:STATIC=/mnt/c/Users/lkass/Documents/GitHub/JavaOGDF/src
 
 //The directory containing a CMake configuration file for ogdf.
-ogdf_DIR:PATH=/usr/local/lib/x86_64-linux-gnu/cmake/OGDF
+ogdf_DIR:PATH=/home/user/miniconda3/envs/ms/lib/cmake/OGDF
 
 
 ########################
