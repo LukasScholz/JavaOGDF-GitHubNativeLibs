@@ -1,2 +1,0 @@
-/usr/bin/ar qc libOGDF_JNI_Wrapper.a CMakeFiles/OGDF_JNI_Wrapper.dir/LayoutFromEdgeList_internal.cpp.o
-/usr/bin/ranlib libOGDF_JNI_Wrapper.a
