@@ -19,9 +19,9 @@ jobs:
           make -j 1
 
           echo Building tmap
-          cd ../tmap
-          cmake .
-          make -j 1
+          # cd ../tmap
+          # cmake .
+          # make -j 1
 
           echo Building Java-tmap Interface
           cd ../src
