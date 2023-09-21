@@ -8,6 +8,7 @@ if (JNI_FOUND)
 endif()
 
 find_package(JNI REQUIRED)
+include_directories(${JNI_INCLUDE_DIRS})
 set(HEADER "de_unijena_bioinf_TreeVisualization_TreeVisualizer.h")
 add_library(OGDF_JNI_Wrapper STATIC LayoutFromEdgeList_internal.cpp ${HEADER})
 set(CMAKE_PREFIX_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../ogdf")
