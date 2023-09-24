@@ -1,11 +1,5 @@
 project(Java_OGDF_JNI CXX)
 
-find_package(JNI)
-
-if (JNI_FOUND)
-    message (STATUS "JNI_INCLUDE_DIRS=${JNI_INCLUDE_DIRS}")
-    message (STATUS "JNI_LIBRARIES=${JNI_LIBRARIES}")
-endif()
 
 find_package(JNI REQUIRED)
 include_directories(${JNI_INCLUDE_DIRS})
