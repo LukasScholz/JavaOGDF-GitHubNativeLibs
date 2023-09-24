@@ -1,0 +1,53 @@
+name: build_JOGDF_macos64
+
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-11
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: build dependencies
+        run: |
+          echo Building ogdf
+          cd ogdf
+          cmake .
+          make -j 1
+
+          echo Building tmap
+          # cd ../tmap
+          # cmake .
+          # make -j 1
+
+          echo Building Java-tmap Interface
+          cd ../src
+          cmake .
+          make -j 1
+      
+      - name: build jogdf
+        run: |
+          mkdir build
+          cd build
+          cmake .. 
+          make -j 1
+          cmake --build . --target install
+
+      - name: Run Test
+        # working-directory: api/build/test
+        # run: ./CLPTest
+        run: echo skipped
+
+      - name: package
+        run: |
+          cd build/native/
+          zip Jogdf -r l64/*
+      - name: create release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "build/native/*.zip"
+          name: "Jogdf for macos64"
+      
