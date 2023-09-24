@@ -3,12 +3,6 @@ project(JavaOGDF)
 
 find_package(JNI REQUIRED)
 
-find_package(JNI)
-
-if (JNI_FOUND)
-    message (STATUS "JNI_INCLUDE_DIRS=${JNI_INCLUDE_DIRS}")
-    message (STATUS "JNI_LIBRARIES=${JNI_LIBRARIES}")
-endif()
 include_directories(${JNI_INCLUDE_DIRS})
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}")
 set(ogdf_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ogdf")
