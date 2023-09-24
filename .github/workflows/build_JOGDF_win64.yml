@@ -11,6 +11,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: setup msys2
+        uses: msys2/setup-msys2@v2
+        with:
+          update: true
+          install: >-
+            base-devel
+            mingw-w64-x86_64-toolchain
+            mingw-w64-x86_64-cmake
+            git
+            zip
+            
       - name: build dependencies
         run: |
           echo Building ogdf
