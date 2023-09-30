@@ -63,5 +63,4 @@ jobs:
           artifacts: "build/native/*.zip"
           name: "Jogdf for win64"
           tag: "Jogdf_win64"
-          commit: "main"
       
