@@ -48,7 +48,7 @@ jobs:
       - name: package
         run: |
           cd build/native/
-          zip Jogdf -r l64/*
+          zip Jogdf -r .
       - name: create release
         uses: ncipollo/release-action@v1
         with:
