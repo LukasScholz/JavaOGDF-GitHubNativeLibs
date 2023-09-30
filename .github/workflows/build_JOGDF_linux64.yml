@@ -51,4 +51,6 @@ jobs:
         with:
           artifacts: "build/native/*.zip"
           name: "Jogdf for linux64"
+          tag: "Jogdf_linux64"
+          commit: "main"
       
