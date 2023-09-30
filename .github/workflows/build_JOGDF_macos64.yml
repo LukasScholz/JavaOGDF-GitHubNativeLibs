@@ -13,7 +13,8 @@ jobs:
 
       - name: build dependencies
         run: |
-          sudo apt-get install openjdk-8-jre openjdk-8-jdk
+          brew install openjdk-8-jre
+          brew install openjdk-8-jdk
           echo Building ogdf
           cd ogdf
           cmake .
