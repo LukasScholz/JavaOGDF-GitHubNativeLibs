@@ -14,9 +14,7 @@ jobs:
       - name: build dependencies
         run: |
           sudo apt-get install openjdk-8-jre openjdk-8-jdk
-          echo 'export PATH="/usr/local/opt/openjdk@11/bin:$PATH"' >> /Users/runner/.bash_profile
-          export JAVA_HOME=/usr/lib/jvm/java/
-          export CPPFLAGS="-I/usr/local/opt/openjdk@11/include"
+          JAVA_HOME = $(shell dirname $$(readlink -f $$(which java))|sed 's^jre/bin^^')
           echo Building ogdf
           cd ogdf
           cmake .
