@@ -15,7 +15,8 @@ jobs:
         run: |
           brew install openjdk@11
           sudo ln -sfn /opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
-          jenv add /Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/
+          echo 'export PATH="/usr/local/opt/openjdk@11/bin:$PATH"' >> /Users/runner/.bash_profile
+          
           echo Building ogdf
           cd ogdf
           cmake .
