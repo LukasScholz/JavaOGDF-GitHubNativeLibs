@@ -54,4 +54,6 @@ jobs:
         with:
           artifacts: "build/native/*.zip"
           name: "Jogdf for macos64"
+          tag: "Jogdf_macos64"
+          commit: "main"
       
