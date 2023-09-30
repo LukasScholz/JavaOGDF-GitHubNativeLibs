@@ -7,8 +7,7 @@ include_directories(${JNI_INCLUDE_DIRS})
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}")
 set(ogdf_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ogdf")
 
-include_directories(/usr/lib/jvm/java-8-openjdk-amd64/include /usr/lib/jvm/java-8-openjdk-amd64/include/linux)
-link_directories(/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server)
+include_directories(${JAVA_HOME}/include)
 
 find_package(ogdf)
 # cmake flags/requirements
