@@ -7,8 +7,6 @@ include_directories(${JNI_INCLUDE_DIRS})
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}")
 set(ogdf_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ogdf")
 
-include_directories(${JAVA_HOME}/include)
-
 find_package(ogdf)
 # cmake flags/requirements
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON) # for IDEs
