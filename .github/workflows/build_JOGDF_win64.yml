@@ -57,10 +57,15 @@ jobs:
         run: |
           cd build/native/
           Compress-Archive -PATH . -Destination Jogdf.zip
-      - name: create release
-        uses: ncipollo/release-action@v1
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          artifacts: "build/native/*.zip"
-          name: "Jogdf for win64"
-          tag: "Jogdf_win64"
+          tag_name: ${{ github.ref }}
+          release_name: "Jogdf for win64"
+          body: ""
+          draft: false
+          prerelease: false
       
