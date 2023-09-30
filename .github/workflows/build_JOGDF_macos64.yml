@@ -13,8 +13,9 @@ jobs:
 
       - name: build dependencies
         run: |
-          brew install openjdk-8-jre
-          brew install openjdk-8-jdk
+          brew install openjdk@11
+          sudo ln -sfn /opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+          jenv add /Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/
           echo Building ogdf
           cd ogdf
           cmake .
