@@ -45,15 +45,8 @@ jobs:
         # run: ./CLPTest
         run: echo skipped
 
-      - name: package
-        run: |
-          cd build/native/
-          zip Jogdf -r .
-      - name: create release
-        uses: ncipollo/release-action@v1
+      - uses: actions/upload-artifact@v3
         with:
-          artifacts: "build/native/*.zip"
-          name: "Jogdf for macos64"
-          tag: "Jogdf_macos64"
-          commit: "main"
+          name: Jogdf_win
+          path: build/nativ
       
