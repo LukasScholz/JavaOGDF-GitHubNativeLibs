@@ -53,19 +53,8 @@ jobs:
         # run: ./CLPTest
         run: echo skipped
 
-      - name: package
-        run: |
-          cd build/native/
-          Compress-Archive -PATH . -Destination Jogdf.zip
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+      - uses: actions/upload-artifact@v3
         with:
-          tag_name: "main"
-          release_name: "Jogdf for win64"
-          body: ""
-          draft: false
-          prerelease: false
+          name: Jogdf_win
+          path: build/native/
       
