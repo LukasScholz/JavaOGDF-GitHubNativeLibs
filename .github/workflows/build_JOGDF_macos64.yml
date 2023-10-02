@@ -47,6 +47,6 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          name: Jogdf_win
+          name: Jogdf_macos64
           path: build/nativ
       
