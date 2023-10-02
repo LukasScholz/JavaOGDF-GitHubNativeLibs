@@ -20,17 +20,17 @@ jobs:
           echo Building ogdf
           cd ogdf
           cmake .
-          make -j 1
+          make -j 1 -ferror-limit=0
 
           echo Building tmap
           # cd ../tmap
           # cmake .
-          # make -j 1
+          # make -j 1 -ferror-limit=0
 
           echo Building Java-tmap Interface
           cd ../src
           cmake .
-          make -j 1
+          make -j 1 -ferror-limit=0
       
       - name: build jogdf
         run: |
