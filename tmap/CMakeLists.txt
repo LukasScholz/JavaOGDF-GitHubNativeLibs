@@ -21,10 +21,10 @@ endif(DEFINED ENV{ARCHFLAGS})
 project(_tmap)
 
 # Put LIBOGDF on the include- and lib-path
-target_include_directories(OGDF_JNI_Wrapper PUBLIC "../ogdf")
-target_include_directories(OGDF_JNI_Wrapper PUBLIC "../ogdf/include")
-target_include_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include")
-target_include_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include/linux")
+target_include_directories(_tmap PUBLIC "../ogdf")
+target_include_directories(_tmap PUBLIC "../ogdf/include")
+target_include_directories(_tmap PUBLIC "/usr/lib/jvm/default-java/include")
+target_include_directories(_tmap PUBLIC "/usr/lib/jvm/default-java/include/linux")
 include_directories($ENV{LIBOGDF_INSTALL_PATH}/include)
 link_directories($ENV{LIBOGDF_INSTALL_PATH}/lib)
 
