@@ -38,7 +38,7 @@ jobs:
           cd ..
           cd src
           cmake .
-          make -j 1
+          # make -j 1
       
       - name: build jogdf
         run: |
