@@ -46,7 +46,7 @@ jobs:
           cd build
           cmake .. 
           cmake -G "MSYS Makefiles" -DTARGET_ARCH=64 ..
-          cmake --build . --target install
+          cmake --build . --target install -j 1
 
       - name: Run Test
         # working-directory: api/build/test
