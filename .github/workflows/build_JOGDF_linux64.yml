@@ -27,7 +27,7 @@ jobs:
           echo Building Java-tmap Interface
           cd ../src
           cmake .
-          make -j 1
+          # make -j 1
       
       - name: build jogdf
         run: |
