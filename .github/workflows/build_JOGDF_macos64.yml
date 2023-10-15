@@ -19,13 +19,13 @@ jobs:
           export CPPFLAGS="-I/usr/local/opt/openjdk@11/include"
           echo Building ogdf
           cd ogdf
-          cmake .
-          make -j 1
+          sudo cmake .
+          sudo make -j 1
 
           echo Building tmap
           cd ../tmap
-          cmake .
-          make -j 1
+          sudo cmake .
+          sudo make -j 1
 
           echo Building Java-tmap Interface
           cd ../src
@@ -36,9 +36,9 @@ jobs:
         run: |
           mkdir build
           cd build
-          cmake .. 
-          make -j 1
-          cmake --build . --target install -j 1
+          sudo cmake .. 
+          sudo make -j 1
+          sudo cmake --build . --target install -j 1
 
       - name: Run Test
         # working-directory: api/build/test
