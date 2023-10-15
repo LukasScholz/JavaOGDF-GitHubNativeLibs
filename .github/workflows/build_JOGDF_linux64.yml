@@ -16,26 +16,26 @@ jobs:
           sudo apt-get install openjdk-8-jre openjdk-8-jdk
           echo Building ogdf
           cd ogdf
-          cmake .
-          make -j 1
+          sudo cmake .
+          sudo make -j 1
 
           echo Building tmap
           cd ../tmap
-          cmake .
-          make -j 1
+          sudo cmake .
+          sudo make -j 1
 
           echo Building Java-tmap Interface
           cd ../src
-          cmake .
+          sudo cmake .
           # make -j 1
       
       - name: build jogdf
         run: |
           mkdir build
           cd build
-          cmake .. 
-          make -j 1
-          cmake --build . --target install -j 1
+          sudo cmake .. 
+          sudo make -j 1
+          sudo cmake --build . --target install -j 1
 
       - name: Run Test
         # working-directory: api/build/test
