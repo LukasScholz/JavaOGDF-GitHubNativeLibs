@@ -45,5 +45,5 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: Jogdf_linux64
-          path: build/nativ
+          path: build/native
       
