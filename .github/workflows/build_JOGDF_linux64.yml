@@ -35,7 +35,7 @@ jobs:
         run: |
           sudo apt-get install openjdk-8-jre openjdk-8-jdk
           echo Building ogdf
-          # cd ogdf
+          cd ogdf
           # sudo cmake .
           # sudo make -j 1
 
