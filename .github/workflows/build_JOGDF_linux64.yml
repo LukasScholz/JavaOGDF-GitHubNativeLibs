@@ -56,6 +56,9 @@ jobs:
           sudo cmake .. 
           sudo make -j 1
           sudo cmake --build . --target install -j 1
+      - name: temp
+        if: always()
+        run: cat build/src/cmake_install.cmake
 
       - name: Run Test
         # working-directory: api/build/test
