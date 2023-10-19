@@ -54,6 +54,7 @@ jobs:
         run: |
           mkdir build
           cd build
+          pwd
           sudo cmake .. 
           sudo make -j 1
           sudo cmake --build . --target install -j 1
