@@ -1,7 +1,9 @@
 
 project(JavaOGDF)
 
-find_package(AWSSD REQUIRED COMPONENTS s3)
+find_package(LibXml2 REQUIRED)
+find_package(ZLIB REQUIRED)
+find_package(ICONV MODULE REQUIRED)
 
 find_package(JNI REQUIRED)
 
@@ -36,7 +38,6 @@ elseif(CMAKE_HOST_UNIX)
   set(LINUX 1)
 endif()
 
-target_link_libraries(JavaOGDF ${AWSSDK_LINK_LIBRARIES})
 #add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/extern)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src)
 #add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/tmap)
