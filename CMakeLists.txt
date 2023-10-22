@@ -1,7 +1,6 @@
 
 project(JavaOGDF)
 
-find_package(LibXml2 REQUIRED)
 find_package(ZLIB REQUIRED)
 
 find_package(JNI REQUIRED)
