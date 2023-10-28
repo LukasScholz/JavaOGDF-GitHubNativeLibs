@@ -1,0 +1,14 @@
+name: run_all
+on:
+  workflow_dispatch
+jobs:
+  run_all:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Workflows
+        run: |
+          gh workflow run build_JOGDF_linux64.yml -f target_branch=${GITHUB_REF##*/}
+          gh workflow run build_JOGDF_win64.yml -f target_branch=${GITHUB_REF##*/}
+          gh workflow run build_JOGDF_macos64.yml -f target_branch=${GITHUB_REF##*/}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
