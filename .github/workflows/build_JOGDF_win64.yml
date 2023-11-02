@@ -23,6 +23,7 @@ jobs:
             zip
             
       - name: build dependencies
+        shell: msys2 {0}
         run: |
           echo Building ogdf
           cd ogdf
@@ -41,6 +42,7 @@ jobs:
           # make -j 1
       
       - name: build jogdf
+        shell: msys2 {0}
         run: |
           mkdir build
           cd build
