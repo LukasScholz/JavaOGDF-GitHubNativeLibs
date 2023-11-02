@@ -27,7 +27,7 @@ jobs:
         run: |
           echo Building ogdf
           cd ogdf
-          # cmake .
+          cmake .
           # make -j 1
 
           echo Building tmap
