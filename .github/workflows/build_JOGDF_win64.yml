@@ -46,7 +46,6 @@ jobs:
         run: |
           mkdir build
           cd build
-          cmake .. 
           cmake -G "MSYS Makefiles" -DTARGET_ARCH=64 ..
           cmake --build . --target install -j 1
 
