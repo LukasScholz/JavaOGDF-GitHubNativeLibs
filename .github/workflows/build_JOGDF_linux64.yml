@@ -38,17 +38,17 @@ jobs:
           echo Building ogdf
           cd ogdf
           sudo cmake .
-          # sudo make -j 1
+          sudo make -j 1
 
           echo Building tmap
           cd ../tmap
           sudo cmake .
-          # sudo make -j 1
+          sudo make -j 1
 
           echo Building Java-tmap Interface
           cd ../src
           sudo cmake .
-          # make -j 1
+          sudo make -j 1
       
       - name: build jogdf
         run: |
@@ -58,9 +58,6 @@ jobs:
           sudo cmake .. 
           sudo make -j 1
           sudo cmake --build . --target install -j 1
-      - name: temp
-        if: always()
-        run: cat build/src/cmake_install.cmake
 
       - name: Run Test
         # working-directory: api/build/test
