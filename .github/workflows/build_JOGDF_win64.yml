@@ -28,18 +28,18 @@ jobs:
           echo Building ogdf
           cd ogdf
           cmake .
-          # make -j 1
+          make -j 1
 
           echo Building tmap
           cd ../tmap
           cmake .
-          # make -j 1
+          make -j 1
 
           echo Building Java-tmap Interface
           cd ..
           cd src
           cmake .
-          # make -j 1
+          make -j 1
       
       - name: build jogdf
         shell: msys2 {0}
