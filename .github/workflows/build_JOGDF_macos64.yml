@@ -24,13 +24,13 @@ jobs:
 
           echo Building tmap
           cd ../tmap
-          # sudo cmake .
-          sudo make -j 1
+          sudo cmake .
+          # sudo make -j 1
 
           echo Building Java-tmap Interface
           cd ../src
           sudo cmake .
-          sudo make -j 1
+          # sudo make -j 1
       
       - name: build jogdf
         run: |
