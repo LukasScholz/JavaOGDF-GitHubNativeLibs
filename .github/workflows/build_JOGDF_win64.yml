@@ -33,7 +33,7 @@ jobs:
           echo Building tmap
           cd ../tmap
           cmake .
-          make -j 1
+          # make -j 1
 
           echo Building Java-tmap Interface
           cd ..
