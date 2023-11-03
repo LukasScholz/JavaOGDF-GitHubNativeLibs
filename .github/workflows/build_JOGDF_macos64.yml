@@ -24,7 +24,7 @@ jobs:
 
           echo Building tmap
           cd ../tmap
-          sudo cmake .
+          # sudo cmake .
           sudo make -j 1
 
           echo Building Java-tmap Interface
