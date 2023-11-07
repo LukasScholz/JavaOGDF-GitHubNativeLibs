@@ -1,5 +1,10 @@
 project(Java_OGDF_JNI CXX)
 
+if (WINDOWS)
+  find_package(ZLIB REQUIRED)
+  # if .hpp on windows: "not defined in this scope" errors
+  set(CLPModel_HEADER "de_unijena_bioinf_TreeVisualization_TreeVisualizer.h")
+endif()
 
 find_package(JNI REQUIRED)
 include_directories(${JNI_INCLUDE_DIRS})
