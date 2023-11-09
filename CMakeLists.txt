@@ -8,6 +8,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}")
 set(ogdf_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ogdf")
 
 find_package(ogdf)
+find_package(tmap)
 # cmake flags/requirements
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON) # for IDEs
 set(CMAKE_POSITION_INDEPENDENT_CODE ON) # for compiling shared lib
