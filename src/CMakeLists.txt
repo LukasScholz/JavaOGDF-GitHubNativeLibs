@@ -92,6 +92,5 @@ install(CODE [[
 	execute_process(COMMAND patchelf --set-rpath ".:$ORIGIN" ${found_dep}
 	  WORKING_DIRECTORY ${INSTALL_PATH})
       endif()
-    endif()
   endforeach()
   ]])
