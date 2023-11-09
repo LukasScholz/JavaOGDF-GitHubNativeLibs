@@ -33,6 +33,14 @@ endif()
 
 target_link_libraries(OGDF_JNI_Wrapper PUBLIC ${EXTRA_STATIC_LINKS})
 
+#link dependencies
+target_link_directories(OGDF_JNI_Wrapper PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_directories(OGDF_JNI_Wrapper PUBLIC "../tmap/src/_tmap/")
+target_link_directories(OGDF_JNI_Wrapper PUBLIC "../ogdf")
+target_link_directories(OGDF_JNI_Wrapper PUBLIC "../ogdf/include")
+target_link_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include")
+target_link_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include/linux")
+
 # install path corresponding to os/arch
 set(CMAKE_INSTALL_PREFIX "${PROJECT_SOURCE_DIR}/../build/")
 set(MAVEN_PATH "native")
@@ -60,9 +68,6 @@ install(CODE [[
     CONFLICTING_DEPENDENCIES_PREFIX CONF
     LIBRARIES $<TARGET_FILE:OGDF_JNI_Wrapper>)
   foreach (found_dep IN LISTS RESOLVED)
-    # copy only these libs
-    if (found_dep MATCHES ".*([Cc]bc|[Cc]lp|[Cc]oin|gcc_s|gfortran|lapack|quadmath|c\\+\\+).*"
-	OR (MACOS AND found_dep MATCHES ".*gmp.*"))
       # TODO: WINDOWS: copy manually for now
       # copy all depencencies only as major version
       if (IS_SYMLINK "${found_dep}")
