@@ -36,6 +36,7 @@ jobs:
           #cmake --version
       - name: build dependencies
         run: |
+          sudo apt-get update
           echo Building ogdf
           cd ogdf
           sudo cmake .
