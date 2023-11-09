@@ -11,8 +11,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Reinstall cmake
+      - name: Install dependencies
+        continue-on-error: true
         run: |
+          sudo apt-get install openjdk-8-jre openjdk-8-jdk
           cmake --version
           #sudo apt update
           #sudo apt install build-essential libtool autoconf unzip wget
@@ -34,7 +36,6 @@ jobs:
           #cmake --version
       - name: build dependencies
         run: |
-          sudo apt-get install openjdk-8-jre openjdk-8-jdk
           echo Building ogdf
           cd ogdf
           sudo cmake .
