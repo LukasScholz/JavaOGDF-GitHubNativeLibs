@@ -25,6 +25,8 @@ target_include_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/in
 target_include_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include/linux")
 
 find_package("../ogdf")
+find_package("../tmap")
+
 
 if (STATIC_STD)
   set(EXTRA_STATIC_LINKS "-static-libgcc -static-libstdc++")
