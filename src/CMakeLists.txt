@@ -17,15 +17,19 @@ if (STATIC_STD)
   message("STATIC_STD set: ${EXTRA_STATIC_LINKS}")
 endif()
 
+find_package("../ogdf")
+find_package("../tmap")
+
+
 target_include_directories(OGDF_JNI_Wrapper PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_include_directories(OGDF_JNI_Wrapper PUBLIC "../tmap/src/_tmap/")
 target_include_directories(OGDF_JNI_Wrapper PUBLIC "../ogdf")
 target_include_directories(OGDF_JNI_Wrapper PUBLIC "../ogdf/include")
 target_include_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include")
-target_include_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include/linux")
 
-find_package("../ogdf")
-find_package("../tmap")
+if(Linux)
+  target_include_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include/linux")
+endif()
 
 
 if (STATIC_STD)
