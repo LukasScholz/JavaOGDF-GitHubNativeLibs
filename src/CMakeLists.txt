@@ -39,6 +39,7 @@ endif()
 
 target_link_libraries(OGDF_JNI_Wrapper PUBLIC ${EXTRA_STATIC_LINKS})
 
+add_executable(OGDF_JNI_Wrapper LayoutFromEdgeList_internal.cpp)
 #link dependencies
 target_link_directories(OGDF_JNI_Wrapper PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_directories(OGDF_JNI_Wrapper PUBLIC "../tmap/src/_tmap/")
@@ -46,6 +47,10 @@ target_link_directories(OGDF_JNI_Wrapper PUBLIC "../ogdf")
 target_link_directories(OGDF_JNI_Wrapper PUBLIC "../ogdf/include")
 target_link_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include")
 target_link_directories(OGDF_JNI_Wrapper PUBLIC "/usr/lib/jvm/default-java/include/linux")
+
+#add executeable
+
+
 
 # install path corresponding to os/arch
 set(CMAKE_INSTALL_PREFIX "${PROJECT_SOURCE_DIR}/../build/")
