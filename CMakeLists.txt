@@ -6,6 +6,7 @@ find_package(JNI REQUIRED)
 include_directories(${JNI_INCLUDE_DIRS})
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}")
 set(ogdf_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ogdf")
+set(tmap_DIR "${CMAKE_CURRENT_SOURCE_DIR}/tmap")
 
 find_package(ogdf)
 find_package(tmap)
